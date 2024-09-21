@@ -1,19 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      {/* Обычный параграф */}
-      <p>Lorem ipsum dolor sit amet.</p>
-      {/* Обычный параграф с явным переносом */}
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Maxime, iusto.</p>
-      {/* Обычный параграф со специальным симоволом неразрывного пробела */}
-      <p>Lorem,&nbsp;&nbsp;&nbsp;&nbsp; ipsum&nbsp;dolor.</p>
+      <h1>Заголовок 1 уровня</h1>
+      <h2>Заголовок 2 уровня</h2>
+      <h3>Заголовок 3 уровня</h3>
+      <h4>Заголовок 4 уровня</h4>
+      <h5>Заголовок 5 уровня</h5>
+      <h6>Заголовок 6 уровня</h6>
     </>
   )
 }
